@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="ffc77eb0-6125-47db-b4af-84b1e4fc6fb7" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="package-info" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="D:\mavenFactory" />
+        <option name="userSettingsFile" value="D:\maven\apache-maven-3.6.3\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2L284noeyHutcTy0Tp18LNM9dwS" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LBS-Data" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RestClientSettings">
+    <option name="REQUEST_HISTORY">
+      <list>
+        <RestClientRequest>
+          <option name="httpMethod" value="GET" />
+          <option name="urlBase" value="http://127.0.0.1:8000/yzq-cloud/nacos-client/service-instance" />
+          <option name="urlPath" value="" />
+          <option name="headers">
+            <list>
+              <KeyValuePair>
+                <option name="key" value="Accept" />
+                <option name="value" value="application/json" />
+              </KeyValuePair>
+            </list>
+          </option>
+          <option name="textToSend" value="" />
+          <option name="filesToSend" value="" />
+        </RestClientRequest>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="HTTP Request.nacos-client#1">
+    <configuration name="nacos-client#1" type="HttpClient.HttpRequestRunConfigurationType" factoryName="HTTP Request" temporary="true" path="$PROJECT_DIR$/yzq-alibaba-nacos-client/src/main/resources/http/nacos-client.http" runType="Run single request">
+      <method v="2" />
+    </configuration>
+    <configuration name="NacosClientApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="yzq-alibaba-nacos-client" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.yzq.springCloudDemo.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.yzq.springCloudDemo.NacosClientApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="HTTP Request.nacos-client#1" />
+        <item itemvalue="Spring Boot.NacosClientApplication" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ffc77eb0-6125-47db-b4af-84b1e4fc6fb7" name="Default Changelist" comment="" />
+      <created>1675057628846</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1675057628846</updated>
+      <workItem from="1675057631571" duration="5251000" />
+      <workItem from="1675125506539" duration="7933000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="568" y="176" key="#com.intellij.ide.util.MemberChooser" timestamp="1675061117971">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state x="568" y="176" key="#com.intellij.ide.util.MemberChooser/0.0.1463.866@0.0.1463.866" timestamp="1675061117971" />
+    <state x="512" y="188" key="FileChooserDialogImpl" timestamp="1675147245113">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state x="512" y="188" key="FileChooserDialogImpl/0.0.1463.866@0.0.1463.866" timestamp="1675147245113" />
+    <state width="1014" height="122" key="GridCell.Tab.0.bottom" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.0.bottom/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.0.center" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.0.center/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.0.left" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.0.left/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.0.right" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.0.right/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.1.bottom" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.1.bottom/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.1.center" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.1.center/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.1.left" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.1.left/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.1.right" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.1.right/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.2.bottom" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.2.bottom/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.2.center" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.2.center/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.2.left" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.2.left/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state width="1014" height="122" key="GridCell.Tab.2.right" timestamp="1675153545825">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state width="1014" height="122" key="GridCell.Tab.2.right/0.0.1463.866@0.0.1463.866" timestamp="1675153545825" />
+    <state x="233" y="75" key="SettingsEditor" timestamp="1675057906414">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state x="233" y="75" key="SettingsEditor/0.0.1463.866@0.0.1463.866" timestamp="1675057906414" />
+    <state x="414" y="257" key="com.intellij.ide.util.TipDialog" timestamp="1675125508785">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state x="414" y="257" key="com.intellij.ide.util.TipDialog/0.0.1463.866@0.0.1463.866" timestamp="1675125508785" />
+    <state x="203" y="256" key="new project wizard" timestamp="1675145950567">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state x="203" y="256" key="new project wizard/0.0.1463.866@0.0.1463.866" timestamp="1675145950567" />
+    <state x="715" y="186" key="search.everywhere.popup" timestamp="1675059447658">
+      <screen x="0" y="0" width="1463" height="866" />
+    </state>
+    <state x="715" y="186" key="search.everywhere.popup/0.0.1463.866@0.0.1463.866" timestamp="1675059447658" />
+  </component>
+</project>

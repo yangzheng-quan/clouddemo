@@ -1,0 +1,14 @@
+server:
+  servlet:
+    context-path: /yzq-admin
+  port: 7001
+
+spring:
+  application:
+    name: yzq-admin
+  cloud:
+    nacos:
+      discovery:
+        namespace:
+        enabled: true
+        server-addr: 127.0.0.1:8848
