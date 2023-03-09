@@ -7,6 +7,7 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="yzq-authority-center" />
         <module name="yza-admin" />
         <module name="yzq-alibaba-nacos-client" />
         <module name="yzq-common" />
@@ -18,6 +19,7 @@
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="yza-admin" options="-parameters" />
       <module name="yzq-alibaba-nacos-client" options="-parameters" />
+      <module name="yzq-authority-center" options="-parameters" />
       <module name="yzq-common" options="-parameters" />
       <module name="yzq-mvc-config" options="-parameters" />
     </option>

@@ -1,3 +1,55 @@
+POST http://127.0.0.1:7000/yzq-authority-center/authority/register
+Content-Type: application/json
+
+{
+  "username": "yzq",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+###
+
+POST http://127.0.0.1:7000/yzq-authority-center/authority/register
+Content-Type: application/json
+
+{
+  "username": "yzq",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+###
+
+POST http://127.0.0.1:7000/yzq-authority-center/authority/token
+Content-Type: application/json
+
+{
+  "username": "yzq",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+<> 2023-03-09T102849.200.json
+
+###
+
+POST http://127.0.0.1:7000/yzq-authority-center/authority/token
+Content-Type: application/json
+
+{
+  "username": "yzq",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+###
+
+POST http://127.0.0.1:7000/yzq-authority-center/authority/token
+Content-Type: application/json
+
+{
+  "username": "yzq",
+  "password": "e10adc3949ba59abbe56e057f20f883e"
+}
+
+###
+
 GET http://127.0.0.1:8000/yzq-cloud/nacos-client/service-instance
 Accept: application/json
 

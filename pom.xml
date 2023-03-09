@@ -12,6 +12,7 @@
         <module>yzq-mvc-config</module>
         <module>yzq-alibaba-nacos-client</module>
         <module>yza-admin</module>
+        <module>yzq-authority-center</module>
     </modules>
 
     <packaging>pom</packaging>

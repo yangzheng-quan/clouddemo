@@ -1,0 +1,59 @@
+server:
+  port: 7000
+  servlet:
+    context-path: /yzq-authority-center
+
+spring:
+  application:
+    name: yzq-authority-center
+  cloud:
+    nacos:
+      discovery:
+        enabled: true # 如果不想使用 Nacos 进行服务注册和发现, 设置为 false 即可
+        server-addr: 127.0.0.1:8848 # Nacos 服务器地址
+        # server-addr: 127.0.0.1:8848,127.0.0.1:8849,127.0.0.1:8850 # Nacos 服务器地址
+        namespace: 0e347141-da3c-4807-aac0-a3834942ba6a
+        metadata:
+          management:
+            context-path: ${server.servlet.context-path}/actuator
+  datasource:
+    # 数据源
+    url: jdbc:mysql://127.0.0.1:3306/yzq_cloud?autoReconnect=true&useUnicode=true&characterEncoding=utf8&useSSL=false
+    username: root
+    password: root
+    type: com.zaxxer.hikari.HikariDataSource
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    # 连接池
+    hikari:
+      maximum-pool-size: 8
+      minimum-idle: 4
+      idle-timeout: 30000
+      connection-timeout: 30000
+      max-lifetime: 45000
+      auto-commit: true
+      pool-name: ImoocEcommerceHikariCP
+  mybatis:
+    mapper-locations: classpath:mapper/*Mapper.xml,classpath:mapper/*/*.xml
+    #用于mybatis在控制台打印sql日志
+    configuration:
+      log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+  mybatis-plus:
+    configuration:
+      map-underscore-to-camel-case: true
+    global-config:
+      db-config:
+        logic-delete-field: flag
+        logic-delete-value: 1
+        logic-not-delete-value: 0
+    mapper-locations: classpath:mapper/*Mapper.xml,classpath:mapper/*/*.xml
+
+# 暴露端点
+management:
+  endpoints:
+    web:
+      exposure:
+        include: '*'
+  endpoint:
+    health:
+      show-details: always

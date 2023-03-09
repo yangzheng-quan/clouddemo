@@ -12,6 +12,9 @@ spring:
        enabled: true #不使用nacos则使用false
        server-addr: 127.0.0.1:8848,127.0.0.1:8868 #nacos服务器地址
        namespace: 0e347141-da3c-4807-aac0-a3834942ba6a
+       metadata:
+         management:
+           context-path: ${server.servlet.context-path}/actuator #将监控服务的路径暴露出去
 #暴露端点
 management:
   endpoints:

@@ -3,6 +3,7 @@
   <component name="Encoding">
     <file url="file://$PROJECT_DIR$/yza-admin/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yzq-alibaba-nacos-client/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/yzq-authority-center/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yzq-common/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/yzq-mvc-config/src/main/java" charset="UTF-8" />
   </component>

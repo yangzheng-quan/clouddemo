@@ -1,3 +1,0 @@
-#### 查询服务实列信息
-GET http://127.0.0.1:8000/yzq-cloud/nacos-client/service-instance
-Accept: application/json

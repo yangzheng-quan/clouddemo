@@ -9,13 +9,13 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
 
-    <artifactId>yza-admin</artifactId>
+    <artifactId>yzq-authority-center</artifactId>
     <version>1.0-SNAPSHOT</version>
     <packaging>jar</packaging>
 
     <!-- 模块名及描述信息 -->
-    <name>yzq-admin</name>
-    <description>监控服务器</description>
+    <name>yzq-authority-center</name>
+    <description>授权中心</description>
 
     <dependencies>
         <!-- spring cloud alibaba nacos discovery 依赖 -->
@@ -24,26 +24,45 @@
             <artifactId>spring-cloud-starter-alibaba-nacos-discovery</artifactId>
             <version>2.2.3.RELEASE</version>
         </dependency>
-        <!-- SpringBoot Admin -->
+        <!-- Java Persistence API, ORM 规范 -->
+        <!--mybatis-plus-->
         <dependency>
-            <groupId>de.codecentric</groupId>
-            <artifactId>spring-boot-admin-starter-server</artifactId>
-            <version>2.2.0</version>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>3.3.1</version>
         </dependency>
-        <!-- 开启登录认证功能 -->
+        <!-- MySQL 驱动, 注意, 这个需要与 MySQL 版本对应 -->
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-security</artifactId>
+            <groupId>mysql</groupId>
+            <artifactId>mysql-connector-java</artifactId>
+            <version>8.0.30</version>
+            <scope>runtime</scope>
         </dependency>
-       <!--  实现对 Java Mail 的自动化配置-->
-       <!--           <dependency>
-                    <groupId>org.springframework.boot</groupId>
-                    <artifactId>spring-boot-starter-mail</artifactId>
-                </dependency>-->
         <dependency>
             <groupId>com.yzq.springCloudDemo</groupId>
             <artifactId>yzq-mvc-config</artifactId>
             <version>1.0-SNAPSHOT</version>
+        </dependency>
+        <!-- zipkin = spring-cloud-starter-sleuth + spring-cloud-sleuth-zipkin-->
+        <dependency>
+            <groupId>org.springframework.cloud</groupId>
+            <artifactId>spring-cloud-starter-zipkin</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.kafka</groupId>
+            <artifactId>spring-kafka</artifactId>
+            <version>2.5.0.RELEASE</version>
+        </dependency>
+        <!-- screw 生成数据库文档 -->
+        <dependency>
+            <groupId>org.freemarker</groupId>
+            <artifactId>freemarker</artifactId>
+            <version>2.3.30</version>
+        </dependency>
+        <dependency>
+            <groupId>cn.smallbun.screw</groupId>
+            <artifactId>screw-core</artifactId>
+            <version>1.0.3</version>
         </dependency>
     </dependencies>
 
